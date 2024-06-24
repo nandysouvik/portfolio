@@ -20,7 +20,7 @@ function Projects() {
           src={investmentCalculator}
           link="https://github.com/nandysouvik/investment_calculator"
           h3="Investment Calculator"
-          p=""
+          p="Investment App"
         />
         {/* <ProjectCard
           src={hipsster}
