@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
 import ticTacToe from '../../assets/game-logo.png';
 import investmentCalculator from '../../assets/investment-calculator-logo.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import amazonClone from '../../assets/amazon-logo.png';
+import covidTracker from '../../assets/covid-tracker.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -22,15 +22,21 @@ function Projects() {
           h3="Investment Calculator"
           p="Investment App"
         />
-        {/* <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+        <ProjectCard
+          src={amazonClone}
+          link="https://github.com/nandysouvik/amazonClone"
+          h3="Amazon Clone"
+          p="Shop Cart"
         />
         <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          src={covidTracker}
+          link="https://github.com/nandysouvik/covid-tracker"
+          h3="Covid Tracker"
+          p="Fitness App"
+        />
+        {/* <ProjectCard
+          src={covidTracker}
+          link="https://github.com/nandysouvik/covid-tracker"
           h3="FitLift"
           p="Fitness App"
         /> */}
