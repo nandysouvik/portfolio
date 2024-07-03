@@ -4,6 +4,7 @@ import investmentCalculator from '../../assets/investment-calculator-logo.png';
 import amazonClone from '../../assets/amazon-logo.png';
 import covidTracker from '../../assets/covid-tracker.png';
 import ProjectCard from '../../common/ProjectCard';
+import ChallengersGame from '../../assets/challenge.png'
 
 function Projects() {
   return (
@@ -34,12 +35,12 @@ function Projects() {
           h3="Covid Tracker"
           p="Fitness App"
         />
-        {/* <ProjectCard
-          src={covidTracker}
-          link="https://github.com/nandysouvik/covid-tracker"
-          h3="FitLift"
-          p="Fitness App"
-        /> */}
+        <ProjectCard
+          src={ChallengersGame}
+          link="https://github.com/nandysouvik/challengers-game"
+          h3="Challengers Game"
+          p="ChallengersGame App"
+        />
       </div>
     </section>
   );
